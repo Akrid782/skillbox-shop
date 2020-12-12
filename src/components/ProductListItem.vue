@@ -1,7 +1,5 @@
 <template>
-  <li
-    class="catalog__item"
-  >
+  <li class="catalog__item">
     <a
       class="catalog__pic"
       href="#"
@@ -19,9 +17,7 @@
       </a>
     </h3>
 
-    <span class="catalog__price">
-      {{ product.price }} ₽
-    </span>
+    <span class="catalog__price"> {{ product.price }} ₽ </span>
 
     <ul class="colors colors--black">
       <li class="colors__item">
@@ -35,7 +31,7 @@
           >
           <span
             class="colors__value"
-            style="background-color: #73B6EA;"
+            style="background-color: #73b6ea"
           />
         </label>
       </li>
@@ -49,7 +45,7 @@
           >
           <span
             class="colors__value"
-            style="background-color: #8BE000;"
+            style="background-color: #8be000"
           />
         </label>
       </li>
@@ -63,7 +59,7 @@
           >
           <span
             class="colors__value"
-            style="background-color: #222;"
+            style="background-color: #222"
           />
         </label>
       </li>
@@ -73,11 +69,10 @@
 
 <script>
 export default {
-  name: 'ProductItem',
+  name: 'ProductListItem',
   props: ['product']
 }
 </script>
 
 <style scoped>
-
 </style>
